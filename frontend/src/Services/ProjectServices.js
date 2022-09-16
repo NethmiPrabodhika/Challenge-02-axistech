@@ -39,7 +39,7 @@ export async function createAmount(data) {
         }
     }
 
-    return axios.get(NEWAMOUNTURL, config , alldata )
+    return axios.post(NEWAMOUNTURL, config , alldata )
 
 }
 

@@ -1,7 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ViewFunds from "./Components/ViewFunds";
 import Header from "./Layout/Header";
+
+
+//import 
+import ViewFunds from "./Components/ViewFunds";
+import AddAmount from "./Components/AddAmount";
 
 const SiteRoutes = ()=> {
     return (
@@ -10,6 +14,7 @@ const SiteRoutes = ()=> {
             <Header/>	
                 <Routes>
                     <Route exact path="/" element={<ViewFunds/>} />
+                    <Route exact path="/addamount" element={<AddAmount/>} />
                 </Routes>
             </Router>
         </div>
