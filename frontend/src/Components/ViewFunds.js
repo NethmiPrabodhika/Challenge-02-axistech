@@ -15,7 +15,7 @@ import {
     CardLink,
 
 } from "./Card";
-import { Getfundraising } from "../Services/DonateService";
+import { Getfundraising } from "../Services/ProjectServices";
 import { CardImg } from "reactstrap";
 import "../css/style.css";
 
